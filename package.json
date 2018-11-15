@@ -1,0 +1,63 @@
+{
+  "name": "vscode-ts-react-redux-mui-snippets",
+  "version": "1.0.0",
+  "description": "Typescript React Redux Material-UI snippets ",
+  "publisher": "murugaratham",
+  "categories": [
+    "Snippets"
+  ],
+  "author": "Gary Lee <granaldo123@yahoo.com>",
+  "scripts": {
+    "test": "tslint -t codeFrame \"**/*.tsx\" \"**/*.d.ts\" -e \"node_modules/**\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://www.google.com"
+  },
+  "keywords": [
+    "typescript",
+    "react",
+    "redux",
+    "mui",
+    "snippets"
+  ],
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "icon": "images/react.png",
+  "bugs": {
+    "url": "http://www.google.com"
+  },
+  "homepage": "http://www.google.com",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets/ts-react.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/ts-react.json"
+      }
+    ]
+  },
+  "license": "MIT",
+  "displayName": "Typescript React Redux MUI Snippets",
+  "devDependencies": {
+    "@material-ui/core": "^3.5.1",
+    "@types/react": "^16.7.6",
+    "@types/react-dom": "^16.0.7",
+    "@types/react-redux": "^6.0.6",
+    "@types/redux-form": "^7.4.12",
+    "react-i18next": "^7.10.1",
+    "redux": "^4.0.0",
+    "tslint": "^5.11.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.0.1"
+  },
+  "prettier": {
+    "printWidth": 180,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
