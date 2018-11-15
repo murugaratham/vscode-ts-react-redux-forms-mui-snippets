@@ -1,6 +1,6 @@
 {
   "name": "vscode-ts-react-redux-mui-snippets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Typescript React Redux Material-UI snippets ",
   "publisher": "murugaratham",
   "categories": [
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://www.google.com"
+    "url": "https://github.com/murugaratham/vscode-ts-react-redux-forms-mui-snippets"
   },
   "keywords": [
     "typescript",
@@ -26,9 +26,9 @@
   },
   "icon": "images/react.png",
   "bugs": {
-    "url": "http://www.google.com"
+    "url": "https://github.com/murugaratham/vscode-ts-react-redux-forms-mui-snippets/issues"
   },
-  "homepage": "http://www.google.com",
+  "homepage": "https://marketplace.visualstudio.com/items?itemName=Murugaratham.vscode-ts-react-redux-mui-snippets",
   "contributes": {
     "snippets": [
       {
@@ -42,7 +42,7 @@
     ]
   },
   "license": "MIT",
-  "displayName": "Typescript React Redux MUI Snippets",
+  "displayName": "Typescript React Redux forms MUI Snippets",
   "devDependencies": {
     "@material-ui/core": "^3.5.1",
     "@types/react": "^16.7.6",
