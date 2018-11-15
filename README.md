@@ -277,8 +277,23 @@ export default compose<React.ComponentType<IComponentNameOwnProps>>(
 
 ## Install
 
-Go to vscode extensions tab
-Click elipsis, install from VSIX
+### Option 1 Installing from VSCode marketplace
+
+Launch VS Code Quick Open (⌘+P), paste the following command, and press enter.
+
+`ext install vscode-ts-react-redux-mui-snippets`
+
+### Option 2 Build from source
+
+Install VSCode Extension Manager globally
+
+- `npm i vsce -g`
+
+Clone and package
+
+- Clone this project
+- Run this in shell `vsce package`, note where is the generated vsix
+- Go to VSCode extensions tab, click on ellipsis, install from VSIX
 
 ## Development
 
