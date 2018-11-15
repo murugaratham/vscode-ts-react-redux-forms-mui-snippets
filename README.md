@@ -7,7 +7,7 @@ Typescript, React, Redux and Material-UI snippets for VSCode.
 
 Assuming you have a React app written in Typescript and using redux for state management, redux-form for forms _duh_, Material-UI for designs. This extension will increase your productivity and save time from typing repetitive scaffoldable codes.
 
-![Alt text](images/demo.gif?raw=true 'Demo')
+![Alt text](https://raw.githubusercontent.com/murugaratham/vscode-ts-react-redux-forms-mui-snippets/master/images/demo.gif 'Demo')
 
 ## Snippets
 
